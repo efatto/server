@@ -358,21 +358,21 @@
 <!--            <field name="code">et</field>-->
 <!--            <field name="currency_id" ref="ETB"/>-->
 <!--        </record>-->
-        <record id="fi" model="res.country">
-            <field name="name">Finland</field>
-            <field name="code">fi</field>
-            <field name="currency_id" ref="EUR"/>
-        </record>
+<!--        <record id="fi" model="res.country">-->
+<!--            <field name="name">Finland</field>-->
+<!--            <field name="code">fi</field>-->
+<!--            <field name="currency_id" ref="EUR"/>-->
+<!--        </record>-->
         <record id="fj" model="res.country">
             <field name="name">Fiji</field>
             <field name="code">fj</field>
             <field name="currency_id" ref="FJD"/>
         </record>
-        <record id="fk" model="res.country">
-            <field name="name">Falkland Islands</field>
-            <field name="code">fk</field>
-            <field name="currency_id" ref="FKP"/>
-        </record>
+<!--        <record id="fk" model="res.country">-->
+<!--            <field name="name">Falkland Islands</field>-->
+<!--            <field name="code">fk</field>-->
+<!--            <field name="currency_id" ref="FKP"/>-->
+<!--        </record>-->
         <record id="fm" model="res.country">
             <field name="name">Micronesia</field>
             <field name="code">fm</field>
