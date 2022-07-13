@@ -524,11 +524,11 @@
             <field name="code">il</field>
             <field name="currency_id" ref="ILS"/>
         </record>
-        <record id="im" model="res.country">
-            <field name="name">Isle of Man</field>
-            <field name="code">im</field>
-            <field name="currency_id" ref="GBP"/>
-        </record>
+<!--        <record id="im" model="res.country">-->
+<!--            <field name="name">Isle of Man</field>-->
+<!--            <field name="code">im</field>-->
+<!--            <field name="currency_id" ref="GBP"/>-->
+<!--        </record>-->
         <record id="in" model="res.country">
             <field name="name">India</field>
             <field name="code">in</field>
