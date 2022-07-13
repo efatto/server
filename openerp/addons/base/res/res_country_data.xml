@@ -550,11 +550,11 @@
 <!--            <field name="code">ir</field>-->
 <!--            <field name="currency_id" ref="IRR"/>-->
 <!--        </record>-->
-        <record id="is" model="res.country">
-            <field name="name">Iceland</field>
-            <field name="code">is</field>
-            <field name="currency_id" ref="ISK"/>
-        </record>
+<!--        <record id="is" model="res.country">-->
+<!--            <field name="name">Iceland</field>-->
+<!--            <field name="code">is</field>-->
+<!--            <field name="currency_id" ref="ISK"/>-->
+<!--        </record>-->
         <record id="it" model="res.country">
             <field name="name">Italy</field>
             <field name="code">it</field>
