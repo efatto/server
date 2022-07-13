@@ -211,11 +211,11 @@
             <field name="code">cf</field>
             <field name="currency_id" ref="XAF"/>
         </record>
-        <record id="cd" model="res.country">
-            <field name="name">Congo, Democratic Republic of the</field>
-            <field name="code">cd</field>
-            <field name="currency_id" ref="CDF"/>
-        </record>
+<!--        <record id="cd" model="res.country">-->
+<!--            <field name="name">Congo, Democratic Republic of the</field>-->
+<!--            <field name="code">cd</field>-->
+<!--            <field name="currency_id" ref="CDF"/>-->
+<!--        </record>-->
         <record id="cg" model="res.country">
             <field name="name">Congo</field>
             <field name="code">cg</field>
