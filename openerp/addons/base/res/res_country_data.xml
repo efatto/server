@@ -347,12 +347,12 @@
             <field name="code">er</field>
             <field name="currency_id" ref="ERN"/>
         </record>
-        <record id="es" model="res.country">
-            <field name="name">Spain</field>
-            <field name="code">es</field>
-            <field name="address_format" eval="'%(street)s\n%(street2)s\n%(zip)s %(city)s\n%(country_name)s'" />
-            <field name="currency_id" ref="EUR"/>
-        </record>
+<!--        <record id="es" model="res.country">-->
+<!--            <field name="name">Spain</field>-->
+<!--            <field name="code">es</field>-->
+<!--            <field name="address_format" eval="'%(street)s\n%(street2)s\n%(zip)s %(city)s\n%(country_name)s'" />-->
+<!--            <field name="currency_id" ref="EUR"/>-->
+<!--        </record>-->
         <record id="et" model="res.country">
             <field name="name">Ethiopia</field>
             <field name="code">et</field>
