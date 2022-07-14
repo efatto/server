@@ -560,11 +560,11 @@
 <!--            <field name="code">it</field>-->
 <!--            <field name="currency_id" ref="EUR"/>-->
 <!--        </record>-->
-        <record id="je" model="res.country">
-            <field name="name">Jersey</field>
-            <field name="code">je</field>
-            <field name="currency_id" ref="GBP"/>
-        </record>
+<!--        <record id="je" model="res.country">-->
+<!--            <field name="name">Jersey</field>-->
+<!--            <field name="code">je</field>-->
+<!--            <field name="currency_id" ref="GBP"/>-->
+<!--        </record>-->
         <record id="jm" model="res.country">
             <field name="name">Jamaica</field>
             <field name="code">jm</field>
