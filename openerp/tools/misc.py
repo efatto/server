@@ -30,6 +30,7 @@ from functools import wraps
 import cProfile
 import subprocess
 import logging
+import imp
 import os
 import socket
 import sys
@@ -1095,4 +1096,11 @@ def stripped_sys_argv(*strip_args):
 
     return [x for i, x in enumerate(args) if not strip(args, i)]
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+def import_non_local(name, custom_name=None):
+    custom_name = custom_name or name
+
+    f, pathname, desc = imp.find_module(name, sys.path[1:])
+    module = imp.load_module(custom_name, f, pathname, desc)
+    f.close()
+
+    return module

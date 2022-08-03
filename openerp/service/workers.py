@@ -8,7 +8,6 @@ import logging
 import os
 import psutil
 import random
-import resource
 import select
 import signal
 import socket
@@ -23,6 +22,8 @@ except ImportError:
 
 import openerp
 import openerp.tools.config as config
+import openerp.tools.misc as misc
+resource = misc.import_non_local('resource')
 
 _logger = logging.getLogger(__name__)
 
